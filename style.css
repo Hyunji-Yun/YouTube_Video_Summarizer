@@ -1,0 +1,63 @@
+body, * {
+    font-family: system-ui, sans-serif !important;
+}
+
+/* Center title and adjust spacing */
+h1 {
+    font-size: 70px !important;
+    text-align: center !important;
+    margin-top: 80px !important;
+    margin-bottom: 20px !important;
+}
+h2 {
+    font-size: 40px !important;
+    text-align: center !important;
+    margin-bottom: 30px !important;
+}
+
+/* Default label style */
+label {
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+
+/* Reduce label size for specific elements */
+label[for="url-input"],
+label[for="summary-box"] {
+    font-size: 32px !important;
+    margin-top: 1px !important;
+}
+
+/* Input and textarea size */
+textarea,
+input[type="text"] {
+    height: 250px !important;
+    font-size: 28px !important;
+    padding: 16px !important;
+}
+
+/* Custom height for Summary box only */
+#summary-box textarea {
+    height: 400px !important;  
+}
+
+/* Button style */
+button {
+    font-size: 24px !important;
+    padding: 16px 24px !important;
+    height: 60px !important;
+    border-radius: 12px !important;
+    border: 2px solid black !important;
+    background-color: #f0f0f0 !important;
+}
+
+/* Layout spacing */
+.gr-row {
+    gap: 10px;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.gr-column {
+    gap: 10px;
+    align-items: center !important;
+}
