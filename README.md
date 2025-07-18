@@ -57,6 +57,19 @@ Replace `youtube_summarizer.py` with your actual Python file name if different.
 
 ---
 
+### Example Screenshots
+
+Below are sample screenshots showing how the app works in action:
+
+| Input URL & Processing | Final Summary Output |
+|------------------------|----------------------|
+| ![Processing](ex2.png) | ![Result](ex1.png) |
+
+- **Left**: The app is processing a YouTube video after clicking "Summarize".
+- **Right**: The app successfully displays the summary of the video content using GPT-3.5.
+
+---
+
 ## Notes
 
 - Longer videos may take time to process.  
