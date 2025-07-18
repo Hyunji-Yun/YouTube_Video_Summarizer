@@ -43,8 +43,6 @@ OPENAI_API_KEY=your-api-key-here
 python3 youtube_summarizer.py
 ```
 
-Replace `youtube_summarizer.py` with your actual Python file name if different.
-
 ---
 
 ## How It Works
